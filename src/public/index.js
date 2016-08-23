@@ -64,5 +64,5 @@ var users = {
 
 // initialize()
 
-riot.mount('*', users)
+riot.mount('*')
 

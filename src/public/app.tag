@@ -1,8 +1,8 @@
 <app>
   <p>Hello {person}</p>
   <greeting name="Mathieu" />
-  <button onclick={sayHello}>Say Hello!</button>
-
+  <button class="btn btn-primary" onclick={sayHello}>Say Hello!</button>
+  <p> Time to get { opts.name }</p>
   <script>
     this.person = "buddy"
     this.sayHello = () => {
